@@ -104,31 +104,4 @@ market-mix-modelling/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
----
-How to Run
-```bash
-# Clone the repository
-git clone https://github.com/YOUR-USERNAME/market-mix-modelling.git
-cd market-mix-modelling
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the notebook
-jupyter notebook notebooks/Market_Mix_Modelling_Pipeline.ipynb
-```
-Google Colab: You can also open the notebook directly in Colab — click the badge below:
-![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
-> Replace `YOUR-USERNAME` in the badge URL after publishing.
----
-Tech Stack
-Python 3.10 — pandas, NumPy
-Statistics — statsmodels (OLS, VIF, Breusch-Pagan, Durbin-Watson)
-ML — scikit-learn (TimeSeriesSplit, metrics)
-Optimization — scipy.optimize (SLSQP)
 Visualization — Matplotlib, Seaborn
